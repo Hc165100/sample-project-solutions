@@ -1,0 +1,63 @@
+body {
+  background-color: midnightblue;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+}
+
+#questionWindow {
+  width: 300px;
+  margin: 25px;
+}
+
+#userQuestion {
+  width: 100%;
+}
+button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 77px;
+}
+
+#ball {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+}
+
+#window {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(34, 32, 32);
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+#triangle {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-bottom: 210px solid blue;
+  top: 8%;
+  left: 15%;
+  text-align: center;
+}
+
+#answer {
+  position: absolute;
+  height: 95px;
+  width: 110px;
+  color: antiquewhite;
+  font-size: 1em;
+  top: 110px;
+  left: -55px;
+  opacity: 0%;
+}
